@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Flex", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1707343848552-893e05dba6ac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-black{
+  color: white;
+  background-color: black;
+  padding: 30px;
+  border-radius: 10px;
+}
+img{
+
+  top: -30px;
+  left: 62%; 
+  position: relative;
+  height: 100px;
+  /* width: 250px; */
+}
+.from{
+  font-size: 30px;
+  position: relative;
+  bottom: -50px;
+}
+.happy{
+  /* height: 20px; */
+  padding: -20px;
+  background-color: #86BE3F;
+  text-align: center;
+  font-size:  40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.thish2{
+  font-size: 20px;
+  font-weight: 200;
+}
+.second-container{
+  text-align: center;
+  
+}
+.para{
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.actual{
+  margin-bottom: 30px;
+  }
+
+span{
+  padding: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  background-color: gray;
+  font-size: 25px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+@media (max-width:600px) {
+  img{
+  top: -45px;
+  left: 200px; 
+  position: relative;
+}
+span{
+  padding: 5;
+  font-size: 15px;
+  margin: 10px;
+}
+.happy{
+  font-size: 30px;
+  padding: 5px;
+}
+}
+span:hover{
+  opacity: 0.8;
+}
